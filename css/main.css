@@ -1,0 +1,32 @@
+body {
+    line-height: 1rem;
+    
+    /* Set page's background */
+    background-image: url("../img/background-photo-mobile-devices.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 1.25rem;
+    margin: 1rem;
+}
+
+h2 {
+    font-weight: 300;
+    font-size: 1rem;
+    margin: 0.5rem;
+}
+
+a {
+    font-size: 1rem;
+    margin: 1rem;
+    padding: 0.75rem 1rem;
+}
+
+a:hover {
+    font-size: 1.1em;
+}
