@@ -21,12 +21,12 @@ h2 {
     margin: 0.5rem;
 }
 
-a {
+button {
     font-size: 1rem;
     margin: 1rem;
     padding: 0.75rem 1rem;
 }
 
-a:hover {
+button:hover {
     font-size: 1.1em;
 }

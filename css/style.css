@@ -26,8 +26,17 @@ body {
     width: 20%;
     height: 2rem;
     margin: 0 1.5em;
-    /* TEMPORARY */
-    background-color: #f00;
+}
+
+.nav-bar > ul {
+    /* Align icon on right side */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.icon > use {
+    fill: white;
 }
 
 main {
@@ -36,17 +45,14 @@ main {
     text-align: center;
 }
 
-a {
-    /* Create gap between h2 and a */
-    display: inline-block;
-
+button {
     /* Create border */
     border: 1px solid rgb(157, 248, 248);
     color: rgb(157, 248, 248);
     border-radius: 5%;
 }
 
-a:hover {
+button:hover {
     border-width: 5px;
     color: #fff;
     background-color: rgb(86, 201, 201);
