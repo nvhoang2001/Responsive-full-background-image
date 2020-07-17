@@ -25,6 +25,7 @@ body {
 #header > .com-name, #header > .nav-bar {
     width: 20%;
     height: 2rem;
+    margin: 0 1.5em;
     /* TEMPORARY */
     background-color: #f00;
 }
