@@ -56,12 +56,5 @@ li {
 
 a:hover {
     background-color: transparent;
-}
-
-a:hover > svg > use {
     fill: rgb(157, 248, 248);
-}
-
-a:hover > span {
-    color: rgb(157, 248, 248)
 }
