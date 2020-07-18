@@ -46,15 +46,25 @@ button {
     align-items: center;
 }
 
-li > a > span {
+li a span {
     display: none;
 }
 
 li {
-    width: auto;
+    width: 25%;
 }
 
 a:hover {
     background-color: transparent;
-    fill: rgb(157, 248, 248);
+    color: rgb(157, 248, 248);
+}
+
+nav a {
+    display: block;
+    text-align: center;
+}
+
+nav a:hover {
+    background-color: dimgray;
+    border-radius: 0.5rem;
 }
