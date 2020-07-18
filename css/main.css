@@ -30,3 +30,32 @@ button {
 button:hover {
     font-size: 1.1em;
 }
+
+#header {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.nav-bar > ul {
+    /* Align icon with column */
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.com-name, .nav-bar, ul, li {
+    width: 100%;
+}
+
+a {
+    display: flex;
+    align-items: center;
+    width: auto;
+}
+
+a > span {
+    color: #fff;
+}
+
+a:hover {
+    background-color: rgb(157, 248, 248);
+}

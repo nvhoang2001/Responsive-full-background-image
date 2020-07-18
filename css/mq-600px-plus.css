@@ -19,3 +19,49 @@ button {
     margin: 1.5rem;
     padding: 1rem 2.5rem;
 }
+
+#header {
+    flex-flow: row nowrap; /* This's optinal */
+    justify-content: space-between;
+    align-items: center;
+    font-size: .7rem;
+}
+
+.com-name, .nav-bar {
+    margin: 0 1.5em;
+}
+
+.com-name {
+    width: 20%;
+}
+
+.nav-bar {
+    width: 30%;
+}
+
+.nav-bar > ul {
+    width: 100%;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+li > a > span {
+    display: none;
+}
+
+li {
+    width: auto;
+}
+
+a:hover {
+    background-color: transparent;
+}
+
+a:hover > svg > use {
+    fill: rgb(157, 248, 248);
+}
+
+a:hover > span {
+    color: rgb(157, 248, 248)
+}

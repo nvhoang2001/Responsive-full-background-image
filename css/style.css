@@ -11,28 +11,10 @@ body {
 
 #header {
     background-color: #00000086;
-    height: 2.8rem;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    display: flex;
-    flex-flow: row nowrap; /* This's optinal */
-    justify-content: space-between;
-    align-items: center;
-}
-
-#header > .com-name, #header > .nav-bar {
-    width: 20%;
-    height: 2rem;
-    margin: 0 1.5em;
-}
-
-.nav-bar > ul {
-    /* Align icon on right side */
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
 }
 
 .icon > use {
@@ -49,7 +31,7 @@ button {
     /* Create border */
     border: 1px solid rgb(157, 248, 248);
     color: rgb(157, 248, 248);
-    border-radius: 5%;
+    border-radius: 1rem;
 }
 
 button:hover {
