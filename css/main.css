@@ -50,12 +50,10 @@ a {
     display: flex;
     align-items: center;
     width: auto;
-}
-
-a > span {
-    color: #fff;
+    color: white;
 }
 
 a:hover {
     background-color: rgb(157, 248, 248);
-}
+    color: darkblue;
+} 
